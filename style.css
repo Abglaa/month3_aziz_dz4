@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 1400px;
+    gap: 30px 24px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.card {
+    width: 200px;
+    height: max-content;
+    margin-top: 30px;
+    border-radius: 17px;
+    color: currentColor;
+    font-family: "Malgun Gothic", sans-serif;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 17px;
+}
